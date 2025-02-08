@@ -10,8 +10,8 @@ spring:
     password: VKUD9PxRCQYhZznt
   rabbitmq:
     addresses: localhost
-    username: admin
-    password: admin
+    username: guest
+    password: guest
     virtual-host: /
   datasource:
     url: jdbc:mysql://localhost:3306/study
@@ -41,7 +41,7 @@ spring:
       methods: '*'
   minio:
     endpoint: 'http://localhost:9000'
-    username: 'minio'
-    password: 'password'
+    username: 'minioadmin'
+    password: 'minioadmin'
   weather:
     key: 115bcaf74fb24f73844365290d85862b
